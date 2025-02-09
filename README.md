@@ -1,6 +1,6 @@
 # BZ_6613_AVL_Tree
 
-***Binary Search Tree (BST) and Its Time Complexity for Important Operations***
+# ***Binary Search Tree (BST) and Its Time Complexity for Important Operations***
 
 A Binary Search Tree (BST) is a node-based binary tree data structure which has the following properties:
 
@@ -17,7 +17,7 @@ Insertion: Average case O(log n), Worst case O(n)
 
 Deletion: Average case O(log n), Worst case O(n)
 
-#***Need for Self-Balancing Trees***
+# ***Need for Self-Balancing Trees***
 
 Self-balancing trees, such as AVL trees and Red-Black trees, are necessary because in a basic BST, the tree can become unbalanced and degenerate into a linked list, leading to poor performance with time complexity O(n) for operations like search, insert, and delete. Self-balancing trees ensure the height of the tree remains logarithmic with respect to the number of nodes, maintaining efficient operation time.
 
@@ -25,7 +25,7 @@ Self-balancing trees, such as AVL trees and Red-Black trees, are necessary becau
 
 An AVL (Adelson-Velsky and Landis) tree is a self-balancing binary search tree. In an AVL tree, the difference in heights between the left and right subtrees (called the balance factor) of any node is at most one. An imbalance is detected if the balance factor of any node is greater than 1 or less than -1.
 
-#***Sub-cases of Imbalance in AVL Trees***
+# ***Sub-cases of Imbalance in AVL Trees***
 
 There are four types of imbalances:
 
